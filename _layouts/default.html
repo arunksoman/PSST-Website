@@ -3,9 +3,11 @@
 {% include head.html %}
 <body>
   {% include header.html %}
-  {% include main-content.html %}
+  {% include hero-content.html %}
   {% include navbar.html %}
-  
+  <main>
+    {{ content }}
+    </main>
 {% include scripts.html %}
 </body>
 </html>
