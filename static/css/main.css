@@ -1,3 +1,32 @@
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  /* you need to set this to assign to the main element a min height of 100% */
+  height: 100%;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Titillium Web", sans-serif;
+  color: #4e6361;
+  background-color: #f5f4e9;
+}
+
+a {
+  color: #6cac70;
+  text-decoration: none;
+}
+/* ************************†************************ */
+
 .cd-img-replace {
   /* replace text with a background-image */
   display: inline-block;
